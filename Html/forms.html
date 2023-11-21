@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        [required]{
+            border-color: green;
+            box-shadow: 0px 0px 5px grey;
+        }
+        :invalid{
+            border-color: red;
+            box-shadow: 0px 0px 5px red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                Nombre
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Apellido
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email
+            </td>
+            <td>
+                <input type="email" value="usuario@dominio.com"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Fecha
+            </td>
+            <td>
+                <input type="date" value="2023-11-21">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
