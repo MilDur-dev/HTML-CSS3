@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+            animation: primeraAnimacion 10s;
+        }
+        @keyframes primeraAnimacion {
+            0% {background: blue; left:0px;top:0px;}
+            20%{background: red; left:100px;top:100px;}
+            50%{background: yellow; left:0px;top:100px;}
+            75%{background: blue; left:0px;top:100px;}
+            100% {background: rgb(0, 255, 55); left:0px;top:0px;}
+        }
+    </style>
+</head>
+<body>
+        <div></div>
+</body>
+</html>
